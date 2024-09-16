@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsdbjtfmydjy3"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_lds5l"]
+[ext_resource type="Script" path="res://scripts/bar.gd" id="1_nylxa"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_lds5l")
+
+[node name="Bar" type="Node2D" parent="."]
+position = Vector2(0, 648)
+script = ExtResource("1_nylxa")
